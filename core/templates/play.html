@@ -14,14 +14,14 @@
 
 </head>
 
-<body class="playfield crosshair fieldlogo" id="playPage">
+<body class="playfield crosshair" id="playPage">
     
     <canvas width="4000" height="4000" id="drawMap"></canvas>
     <div class="username" data-username="{{ username }}"></div>
     {% load static %}
     <script src="{% static 'build/bundle.js' %}"></script>
     <div class="footer"> </div>
-
+<div class="play-footer"></div>
 </body>
 </div>
 </html>
